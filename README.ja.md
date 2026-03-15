@@ -1,9 +1,6 @@
 # img2img
 
-GPT-Image-1 - OpenAIを使ったimg2imgツール。
-
-## デモ
-なし
+GPT-Image-1 - OpenAIを使ったimg2imgツールです。
 
 ## 機能
 - 画像から新しい画像を生成することができます。
@@ -12,12 +9,12 @@ GPT-Image-1 - OpenAIを使ったimg2imgツール。
 - Deno
 
 ## 使い方
-.envファイルを作成し、OpenAI APIキーを記載します。
+`.env`ファイルを作成し、OpenAI APIキーを記載します。
 ```
 OPENAI_API_KEY=****
 ```
 
-コマンドラインから使用する例:
+コマンドラインから次のように使用できます:
 ```sh
 deno run -A https://code4fukui.github.io/txt2img/img2img.js "かわいい線画にして" test/Photo_of_koala_wearing_a_strawberry_hat.png
 ```

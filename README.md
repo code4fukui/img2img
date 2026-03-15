@@ -1,6 +1,8 @@
 # img2img
 
-img2img by [GPT-Image-1 - OpenAI](https://platform.openai.com/docs/api-reference/images/create)
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
+img2img is a tool that uses the GPT-Image-1 model from OpenAI to generate new images from existing ones.
 
 ## Usage
 
@@ -13,7 +15,7 @@ OPENAI_API_KEY=****
 
 Create a single image:
 ```sh
-deno run -A https://code4fukui.github.io/txt2img/img2img.js "かわいい線画にして" test/Photo_of_koala_wearing_a_strawberry_hat.png
+deno run -A https://code4fukui.github.io/txt2img/img2img.js "render as a cute line drawing" test/Photo_of_koala_wearing_a_strawberry_hat.png
 ```
 
 ## Reference
