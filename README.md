@@ -18,12 +18,10 @@ Create a single image:
 deno run -A https://code4fukui.github.io/txt2img/img2img.js "render as a cute line drawing" test/Photo_of_koala_wearing_a_strawberry_hat.png
 ```
 
-## Reference
+## Data / API
 
-- [txt2img](https://github.com/code4fukui/txt2img/)
-- https://platform.openai.com/docs/guides/image-generation?image-generation-model=gpt-image-1
-- https://platform.openai.com/docs/models/gpt-image-1
+- [OpenAI API](https://platform.openai.com/docs/guides/image-generation?image-generation-model=gpt-image-1)
 
 ## License
 
-MIT License
+MIT License — see [LICENSE](LICENSE).
