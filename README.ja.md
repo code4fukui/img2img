@@ -27,7 +27,7 @@ OpenAIのImage APIを使用して画像を編集するための、Denoベース�
 
 **構文:**
 ```sh
-deno run -A https://code4fukui.github.io/txt2img/img2img.js "<prompt>" <image_path_or_url>
+deno run -A ~~https://code4fukui.github.io/txt2img/img2img.js~~ *(unavailable)* "<prompt>" <image_path_or_url>
 ```
 
 **例:**
@@ -35,7 +35,7 @@ deno run -A https://code4fukui.github.io/txt2img/img2img.js "<prompt>" <image_pa
 以下のコマンドは、コアラの写真をかわいい線画に変換します。
 
 ```sh
-deno run -A https://code4fukui.github.io/txt2img/img2img.js "render as a cute line drawing" test/Photo_of_koala_wearing_a_strawberry_hat.png
+deno run -A ~~https://code4fukui.github.io/txt2img/img2img.js~~ *(unavailable)* "render as a cute line drawing" test/Photo_of_koala_wearing_a_strawberry_hat.png
 ```
 
 ## APIリファレンス
